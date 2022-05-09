@@ -1,5 +1,6 @@
 import { useState } from "react";
 import style from "./Vehicle.module.css";
+/* eslint-disable */
 
 const Vehicle_Search = ({
   toggle,
@@ -20,7 +21,6 @@ const Vehicle_Search = ({
         setActiveVehicle([...activeVehicle, Number(id)]);
       }
     }
-
     setLoad(false);
   };
 
@@ -33,9 +33,7 @@ const Vehicle_Search = ({
       />
       <i className="fa-solid fa-magnifying-glass"></i>
       <ul>
-        {data.length &&
-          data
-            .filter((val) => {
+        {data.length && data.filter((val) => {   
               if (searchItem === "") {
                 return val;
               } else if (
