@@ -1,0 +1,50 @@
+.Container input {
+    width: 250px;
+    height: 38px;
+    margin: 5px 0 0 5px;
+    padding: 7px 0 11px 42px;
+    border-radius: 7px;
+    line-height: 15px;
+    color: #757575;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    font-weight: 380;
+    font-size: 14px;
+}
+.Container {
+    width: 258px;
+    background: #FFFFFF;
+    margin: 34px 24px 0 23px;
+    box-shadow: 0px 3px 3px black;
+    border-radius: 12px;
+    border: 1px solid #E0E0E0;
+    position: relative;
+}
+.Container i {
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    left: 25px;
+    top: 15px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+} 
+.Container ul {
+    list-style-type: none;
+}
+.Container ul li {
+    border: none;
+    width: 250px;
+    height: 36px;
+    margin: 9px 0 6px 0;
+    padding: 8px 0 7px 20px;
+    box-sizing: border-box;
+}
+.Container ul li:hover {
+    background: #F5F5F5;
+    font-weight: 800;
+    cursor: pointer;
+}

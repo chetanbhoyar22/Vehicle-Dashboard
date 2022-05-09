@@ -1,0 +1,31 @@
+.GraphContainer {
+  width: 545px;
+  height: 262px;
+  top: 0px;
+  left: 438px;
+  position: absolute;
+}
+.GraphContainer .GraphHeading {
+  display: flex;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 695;
+  color: black;
+  justify-content: space-between;
+}
+.GraphContainer .GraphHeading .backgroundGrey {
+  font-size: 14px;
+  margin-left: 10px;
+  line-height: 17px;
+  padding: 5px 8px;
+  background: white;
+  border-radius: 5px;
+}
+.GraphContainer .backgroundGrey:hover {
+  background: #424242;
+  color: white;
+  cursor: pointer;
+}
+.GraphContainer .GraphBody {
+  margin-top: 12px;
+}
